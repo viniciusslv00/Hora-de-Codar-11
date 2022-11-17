@@ -535,12 +535,16 @@ i {
     left: 100%;
     height: 100%;
     width: 100%;
-    background-color: rgba(0, 0, 0, .95);
+    background-color: rgba(0, 0, 0, 0.95);
     display: flex;
     flex-direction: column;
     padding: 4rem 2rem;
-    transition: .4s;
+    transition: 0.4s;
     z-index: 5;
+}
+
+#mobile-navbar.menu-active {
+    left: 0;
 }
 
 #mobile-navbar a {
@@ -552,9 +556,6 @@ i {
     border-bottom: 1px solid var(--main-color);
 }
 
-#mobile-menu .menu-active {
-    left: 0;
-}
 
 /* Responsivo */
 
